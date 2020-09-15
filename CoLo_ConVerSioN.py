@@ -5,4 +5,3 @@ resized=cv2.resize(image,(1920,1080))
 gray_image=cv2.cvtColor(resized,cv2.COLOR_BGR2GRAY)
 cv2.imshow('gray_image',gray_image)
 cv2.imwrite('ZeRo_TwO_GraYScalE.jpg',gray_image);
-#est
